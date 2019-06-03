@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
+<link href="css.css" rel="stylesheet">
+<link href="favicon.ico" rel="icon">
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Marcellus&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta content="Csille Márió" name="author">
+<meta content="initial-scale=1, width=device-width" name="viewport">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="javascript.js"></script>
+<title>Letters from Olvia - Too much breathing in the microphone</title>
+</head>
+<body data-offset="61" data-spy="scroll" data-target="#nav" id="body" onload="loading()">
+<div class="text-center" id="loading-screen">
+    <div class="position-absolute w-100">
+        <div class="spinner-border text-light" role="status"></div>
+    </div>
+</div>
+<div id="content">
+    <a class="p-3 position-fixed rounded text-decoration-none" data-toggle="tooltip" data-placement="left" title="Lap tetejére" href="#body" id="back-to-top"><i class="fa-angle-up fas"></i></a>
+    <nav class="bg-light fixed-top navbar navbar-expand-lg navbar-light" id="nav">
+        <a class="navbar-brand" href="index.html">
+            <img class="brand" src="images/.navbar-brand.png"/>
+        </a>
+        <button class="navbar-toggler" data-target="#collapse" data-toggle="collapse" type="button">
+            <i class="fa-bars fas"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse">
+            <div class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#index">Index</a>
+                </li>
+                <li class="d-none d-lg-block navbar-divider nav-item position-relative"></li>
+                <li class="dropdown nav-item">
+                    <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button">Black Desert Online</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#blackdesertonline">Black Desert Online</a>
+                        <a class="dropdown-item" href="#blackdesertremastered">Black Desert Remastered</a>
+                        <a class="dropdown-item" href="#blackdesertforxboxone">Black Desert for Xbox One</a>
+                        <a class="dropdown-item" href="#blackdesertmobile">Black Desert Mobile</a>
+                    </div>
+                </li>
+                <li class="d-none d-lg-block navbar-divider nav-item position-relative"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#classes">Kasztok</a>
+                </li>
+                <li class="d-none d-lg-block navbar-divider nav-item position-relative"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#systemrequirements">Rendszerkövetelmények</a>
+                </li>
+                <li class="d-none d-lg-block navbar-divider nav-item position-relative"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#images">Képek</a>
+                </li>
+                <li class="d-none d-lg-block navbar-divider nav-item position-relative"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quiz">Kvíz</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img class="img-fluid" src="images/.jumbotron.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="decoration"></div>
+    </div>
+    <main>
+        <div class="container" id="index">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">Index</h1>
+                    <hr>
+                    <table class="mb-3 tabela">
+                        <tbody>
+                            <tr>
+                                <td class="rounded shadow-sm">
+                                    <div class="carousel carousel-fade slide" data-ride="carousel" id="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li class="active rounded-circle" data-target="#carousel" data-slide-to="0"></li>
+                                            <li class="rounded-circle" data-target="#carousel" data-slide-to="1"></li>
+                                            <li class="rounded-circle" data-target="#carousel" data-slide-to="2"></li>
+                                            <li class="rounded-circle" data-target="#carousel" data-slide-to="3"></li>
+                                            <li class="rounded-circle" data-target="#carousel" data-slide-to="4"></li>
+                                            <li class="rounded-circle" data-target="#carousel" data-slide-to="5"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="active carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-0.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Csapatmunkát igénylő főnökszörnyek</span><br/>
+                                                            A játékélményt tovább tarkítják a szerverenként eltérő időben megjelenő főnökszörnyek jelenléte is, melyekbe belefuthatunk.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-1.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Egyedülálló látvány</span><br/>
+                                                            Nincs még egy olyan MMORPG, amely ilyen szintű grafikai részletességgel, kidolgozottsággal fogadna minket.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-2.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Fejleszthető készségek</span><br/>
+                                                            A rengeteg tennivaló mellett érdemes időt szakítanunk a különféle készségek fejlesztésére is, mint például: egészség, erőnlét stb.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-3.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Hatalmas mozgástér</span><br/>
+                                                            Itt nem a töltöképernyő előtt ülve töltjük időnk jórészét ugyanis nincsenek ilyen képernyők. Az egész játék egyetlen, hatalmas térképet ölel fel, melyet szabadon bejárhatunk.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-4.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Magával ragadó történet</span><br/>
+                                                            A játék egészét átszövő, területeket összekötő, ugyanakkor változatos küldetéssorozatokon vezet minket végig a Black Spirit.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="images/.carousel-item-5.png"/>
+                                                <div class="carousel-caption d-lg-block d-none">
+                                                    <p class="text-center">
+                                                        <span class="text-lowercase">
+                                                            <span class="font-weight-bold">Számtalan AFK akció</span><br/>
+                                                            Ha épp nincs időnk a játékra is, rengeteg AFK pénzszerzési opció van, alkímia, bányászat, horgászat és ehhez hasonlók.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" data-slide="prev" href="#carousel" role="button">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" data-slide="next" href="#carousel" role="button">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0" id="container-fluid-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-deck mb-3">
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="images/.card-0.png"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Archer</h5>
+                                    <p class="card-text">Az Archer a legutóbb a játékhoz hozzáadott kaszt. A többi kaszttal ellenben ő képes használni a pre-awaken (Crossbow), illetve az awakening fegyverét (Greatbow) is már a kezdetektől.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-secondary w-100" data-backdrop="static" data-keyboard="false" data-target="#modal-archer" data-toggle="modal" href="#" role="button">Trailer <i class="far fa-window-restore"></i></a><br/>
+                                    <a class="btn btn-primary w-100" href="https://www.blackdesertonline.com/archer" role="button" target="_blank">Hivatalos weboldal <i class="fa-external-link-alt fas"></i></a>
+                                </div>
+                            </div>
+<div class="modal fade" id="modal-archer" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title mx-auto text-uppercase">Black Desert Online - Archer Teaser Trailer</h5>
+        </div>
+        <div class="modal-body py-0">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/mt-1hXJBUDo"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">Bezár</button>
+        </div>
+    </div>
+</div>
+</div>
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="images/.card-1.png"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Choice</h5>
+                                    <p class="card-text">A heti kiemelt partner cikk keretein belül most megismerhetjük Choice játékát, ő egy igazi maximalista, valamint az első streamer, aki elérte a 62-es szintet.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-primary w-100" href="https://www.blackdesertonline.com/news/view/2758" role="button" target="_blank">Hivatalos weboldal <i class="fa-external-link-alt fas"></i></a>
+                                </div>
+                            </div>
+                            <div class="card shadow-sm">
+                                <img class="card-img-top" src="images/.card-2.png"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Underwater Ruins</h5>
+                                    <p class="card-text">A legfrisebb kiegészítő, amely 2019. május 22-én került be a játékba. Új főszörny, 3 új terület, npc-k és miegymás.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-secondary w-100" data-backdrop="static" data-keyboard="false" data-target="#modal-underwaterruins" data-toggle="modal" href="#" role="button">Trailer <i class="far fa-window-restore"></i></a>
+                                    <a class="btn btn-primary w-100" href="https://www.blackdesertonline.com/underwater" role="button" target="_blank">Hivatalos weboldal <i class="fa-external-link-alt fas"></i></a>
+                                </div>
+                            </div>
+<div class="modal fade" id="modal-underwaterruins" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title mx-auto text-uppercase">Black Desert Online - Underwater Ruins Trailer</h5>
+        </div>
+        <div class="modal-body py-0">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/OPTPGljS0GA"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">Bezár</button>
+        </div>
+    </div>
+</div>
+</div>
+                        </div>
+                        <table class="divider mb-3 w-100">
+                            <tr>
+                                <td class="divider-left"></td>
+                                <td class="divider-line"></td>
+                                <td class="divider-center"></td>
+                                <td class="divider-line"></td>
+                                <td class="divider-right"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="blackdesertonline">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-center">
+                            Black Desert Online<small class="text-muted">, the next gen MMORPG</small>
+                        </h1>
+                        <hr>
+                        <p>A Black Desert Online (Koreaiul: 검은사막) egy, a Pearl Abyss Corporation által kifejlesztett és a Microsoft Windows számára 2015-ben közzétett, majd 2019-ben Xbox One-ra is kiadott, nagy teljesítményű, kategóriájában magasan kiemelkedő tulajdonságokkal bíró, online szerepjáték (MMORPG). A játék globális mobil verziója, a Black Desert Mobile jelenleg is fejlesztés alatt áll, de várhatóan ez év októberében debütál majd.</p>
+                        <div class="mb-3 table-responsive">
+                            <table class="tabela">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/pNIj9d2yrIg"></iframe>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Fejlesztő</td>
+                                        <td class="align-top">Kakao Games Europe B.V.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Hivatalos weboldal</td>
+                                        <td class="align-top">
+                                            <a href="https://www.blackdesertonline.com/" target="_blank">https://www.blackdesertonline.com/ <i class="fa-external-link-alt fas"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Kiadó</td>
+                                        <td class="align-top">Pearl Abyss Corporation</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Megjelenés</td>
+                                        <td class="align-top">2016. március 3.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Műfaj</td>
+                                        <td class="align-top">Massively Multiplayer Online Role-Playing Game (MMORPG)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-top font-weight-bold viewpoint">Szerzői jog</td>
+                                        <td class="align-top">&copy; Pearl Abyss Corp. Minden jog fenntartva.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3 class="mb-3">Főbb jellemzők</h3>
+                        <ul class="list-unstyled">
+                            <li class="media mb-3">
+                                <div class="border media-img mr-3 rounded shadow-sm">
+                                    <img src="images/.media-img-0.png"/>
+                                </div>
+                                <div class="media-body">
+                                    <p><span class="font-weight-bold mt-0">Elképesztő karakterkészítési lehetőségek</span><br/>
+                                    Olyan kinézetű karaktert készíthetünk, amilyet mindig is irányítani szerettünk volna.</p>
+                                </div>
+                            </li>
+                            <li class="media mb-3">
+                                <div class="border media-img mr-3 rounded shadow-sm">
+                                    <img src="images/.media-img-1.png"/>
+                                </div>
+                                <div class="media-body">
+                                    <p><span class="font-weight-bold mt-0">Háború</span><br/>
+                                    Rendszeres, mindenki számára elérhető nagy területű céhes csaták. A céhtagoknak lehetőségük van a napi Node War vagy a heti Conquest War eseményeken való versengésre a többi céh ellen.</p>
+                                </div>
+                            </li>
+                            <li class="media mb-3">
+                                <div class="border media-img mr-3 rounded shadow-sm">
+                                    <img src="images/.media-img-2.png"/>
+                                </div>
+                                <div class="media-body">
+                                    <p><span class="font-weight-bold mt-0">Kombó orientált, nem célpont alapú harcrendszer</span><br/>
+                                    A harcrendszer is eltér a megszokottól. A hagyományos célpontos kombat mód helyett itt különféle kombinációk és látványos képességek egybefűzésével győzhetjük le ellenfeleinket.</p>
+                                </div>
+                            </li>
+                            <li class="media mb-3">
+                                <div class="border media-img mr-3 rounded shadow-sm">
+                                    <img src="images/.media-img-3.png"/>
+                                </div>
+                                <div class="media-body">
+                                    <p><span class="font-weight-bold mt-0">Óceános kalandok</span><br/>
+                                    Építhetünk egy saját hajót aztán irány a nyílt óceán! Vitorlázhatunk, halászhatunk, vadászhatunk különböző vízi szörnyekre és a félelmetes Vell főnökszörnyre is. De akár gyűjtögethetünk, kereskedhetünk is vagy éppen küldetéseket vállalhatunk az óceánokon.</p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="border media-img mr-3 rounded shadow-sm">
+                                    <img src="images/.media-img-4.png"/>
+                                </div>
+                                <div class="media-body">
+                                    <p><span class="font-weight-bold mt-0">Szelidítés, tenyésztés</span><br/>
+                                    Befoghatjuk a vadon élő lovakat vagy elenfántokat, hogy aztán ezek hátán folytassuk kalandjainkat. A befogott lovakat el tudjuk adni vagy tenyészhtejük is őket.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <table class="divider mb-3 w-100">
+                            <tr>
+                                <td class="divider-left"></td>
+                                <td class="divider-line"></td>
+                                <td class="divider-center"></td>
+                                <td class="divider-line"></td>
+                                <td class="divider-right"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0" id="container-fluid-1">
+                <div class="container" id="blackdesertremastered">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center">
+                                Black Desert Remastered<small class="text-muted">, The Best MMORPG Just Got Better</small>
+                            </h1>
+                            <hr>
+                            <p>A játék eredetileg egyszerűen Black Desert Online, azonban 2018 augusztusa óta gyakran Black Desert Remastered néven emlegetik, miután 2018. augusztus 22-én megjelent a remastered kiadás, mely rengeteg újítást hozott a játékba. Grafikai, tartalmi és a játékban hallható NPC-k hangjai, zenék is teljes renováláson estek át.</p>
+                            <img class="d-lg-block d-sm-none float-right img-fluid mb-3" src="images/.container-fluid-1.png"/>
+                            <h3>Átdolgozott hangok</h3>
+                            <p>A Black Desert Online teljes grafikai állománya változásokon ment keresztül, ezzel is növelve a játékélményt. A renderelés, a megvilágítások, az időjárási elemek, környezeti tényezők, mint például a felhők is még a korábbiaknál is realisztikusabbá váltak. Egyik leglátványosabb újítás a vizek, illetve a bőr textúrák teljes újragondolása és még élethűbbé alakítása volt. Ezek mellett a Pearl Abyss több, a jövőre vonatkozó fejlesztést jelentett be, ilyenek például a jobb árnyékolás, erőteljesebb élsimítás. A hab a tortán pedig az, hogy bár a remastered rengeteg újdonsággal szolgált, a játék alapvető gépigénye a régi maradt.</p>
+                            <h3>Grafikai újítások</h3>
+                            <p>A kulcsfontosságú NPC-k hangjai, párbeszédei minden szinten megváltoztak, hogy a történet méginkább magával ragadja a játékost. Ezenkívül a játékban hallható legtöbb háttérzaj, háttérzene is teljes renováláson ment keresztül, kibővítették az élőzenekart, így érezhetőbben javították a játékélményt, sokkal inkább érzékeltetik a hangok a környezet valódi hatását mind a karakterekre mind a történetre nézve.</p>
+                            <p>Több, mint 100 új háttérzene változott meg, Balenos, Calpheon és Serendia területein teljes egészében átdolgozták a háttérben hallható zenéket, de a közeljövőben tervezik a többi, játékban felfedezhető kontinens zenei világát is reformálni.</p>
+                            <div class="mb-3 table-responsive">
+                                <table class="tabela">
+                                    <tbody>
+                                        <tr>
+                                            <td class="rounded shadow-sm" colspan="2">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/_g6XCLNQl_w"></iframe>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <table class="divider mb-3 w-100">
+                                <tr>
+                                    <td class="divider-left"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-center"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-right"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="blackdesertforxboxone">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center">Black Desert for Xbox One</h1>
+                            <hr>
+                            <p>A Black Desert for Xbox One az eredeti PC verzió adaptációja, melyet 2019. máricusában dobtak piacra. Egy forradalmi MMORPG, intenzív, gyors harcokkal tarkított nyílt világú játék, akárcsak a PC verzió.</p>
+                            <h3 class="mb-3">A játék funkciói</h3>
+                            <ul class="list-unstyled">
+                                <li class="media mb-3">
+                                    <div class="border media-img mr-3 rounded shadow-sm">
+                                        <img src="images/.media-img-5.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><span class="font-weight-bold mt-0">Hatalmas, nyílt világot fedezhetünk fel</span><br/>
+                                        A Black Desert játékban felfedezhető nyílt világ óriási. Velia és Olvia tengerparti városaitól Calpheon kiterjedt területéig és Valencia sivatagaiig, mindig vár ránk valami új, amit felfedezhetünk.</p>
+                                    </div>
+                                </li>
+                                <li class="media mb-3">
+                                    <div class="border media-img mr-3 rounded shadow-sm">
+                                        <img src="images/.media-img-6.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><span class="font-weight-bold mt-0">Hihetetlen eszközök a karakterek testreszabására</span><br/>
+                                        Az egyik legerőteljesebb eszköz a karakterek testreszabására Xbox One konzolon. Olyan karaktereket készíthetünk, melyek valóban minket képviselnek.</p>
+                                    </div>
+                                </li>
+                                <li class="media mb-3">
+                                    <div class="border media-img mr-3 rounded shadow-sm">
+                                        <img src="images/.media-img-7.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><span class="font-weight-bold mt-0">Forradalmi, akciódús küzdelmek</span><br/>
+                                        A Black Desert kombinációkon alapuló harcrendszerrel rendelkezik, soha nem volt még ennyire élvezetes a készségek összekombinálása!</p>
+                                    </div>
+                                </li>
+                                <li class="media mb-3">
+                                    <div class="border media-img mr-3 rounded shadow-sm">
+                                        <img src="images/.media-img-8.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><span class="font-weight-bold mt-0">Játékosok által működtetett gazdaság</span><br/>
+                                        A Black Desert játékban teljeskörűen a játékosok határozzák meg a piacot. Az adásvétel teljes mértékben a központi piactéren zajlik, melynek készletét kizárólag a játékosok adják.</p>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <div class="border media-img mr-3 rounded shadow-sm">
+                                        <img src="images/.media-img-9.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><span class="font-weight-bold mt-0">Mély és hasznos életvitelkészségek</span><br/>
+                                        Néha érdemes csak hátradőlni és pihenni, a Black Desert játékban azonban lehetőségünk van halászatra, kereskedésre, vadászatra, tárgyak készítésére és még sok másra is. Mindegyik életvitelkészség sajátos módon hasznos számunkra, de minden életvitelkészséggel csak jól járhatunk.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="mb-3 table-responsive">
+                                <table class="tabela">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/63Opzb2JoM4"></iframe>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-topfont-weight-bold viewpoint">Fejlesztő, kiadó</td>
+                                            <td class="align-top">Pearl Abyss Corporation</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-topfont-weight-bold viewpoint">Hivatalos weboldal</td>
+                                            <td class="align-top">
+                                                <a href="https://xbox.playblackdesert.com/" target="_blank">https://xbox.playblackdesert.com/ <i class="fa-external-link-alt fas"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-topfont-weight-bold viewpoint">Megjelenés</td>
+                                            <td class="align-top">2019. március 4.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-topfont-weight-bold viewpoint">Műfaj</td>
+                                            <td class="align-top">Massively Multiplayer Online Role-Playing Game (MMORPG)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-topfont-weight-bold viewpoint">Szerzői jog</td>
+                                            <td class="align-top">&copy; Pearl Abyss Corp. Minden jog fenntartva.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <table class="divider mb-3 w-100">
+                                <tr>
+                                    <td class="divider-left"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-center"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-right"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-0" id="container-fluid-3">
+                    <div class="container" id="blackdesertmobile">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="text-center">Black Desert Mobile</h1>
+                                <hr>
+                                <p>A Black Desert Mobile egy teljesen egyedülálló grafikával rendelkező mobiltelefonokra készült MMORPG, mely majdhogynem tökéletes adaptációja a PC verziónak. Rengeteg választható kaszttal, számtalan küldetéssel, azonos funkciókkal és lehetőségekkel, mint a PC, illetve konzolos verziók. A játék jelenleg hivatalosan csak Japánban, Koreában, valamint Tajvanban érhető el, tölthető le az App Store vagy a Google Play áruházakból. A globális debütálásra a legfrisebb hírek szerint 2019 végéig (várhatóan októberig) várnunk kell.</p>
+                                <div class="mb-3 table-responsive">
+                                    <table class="tabela">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="embed-responsive embed-responsive-16by9">
+                                                        <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/F7ajPFGJK8E"></iframe>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-top font-weight-bold viewpoint">Fejlesztő, kiadó</td>
+                                                <td class="align-top">Pearl Abyss Corporation</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-top font-weight-bold viewpoint">Globális megjelenés</td>
+                                                <td class="align-top">-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-top font-weight-bold viewpoint">Hivatalos weboldal</td>
+                                                <td class="align-top">
+                                                    Japán: <a href="https://www.jp.blackdesertm.com/Ocean" target="_blank">https://www.jp.blackdesertm.com/Ocean <i class="fa-external-link-alt fas"></i></a><br/>
+                                                    Korea: <a href="https://www.blackdesertm.com/Ocean" target="_blank">https://www.blackdesertm.com/Ocean <i class="fa-external-link-alt fas"></i></a><br/>
+                                                    Tajvan: <a href="https://www.tw.blackdesertm.com/Ocean" target="_blank">https://www.tw.blackdesertm.com/Ocean <i class="fa-external-link-alt fas"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-top font-weight-bold viewpoint">Műfaj</td>
+                                                <td class="align-top">Massively Multiplayer Online Role-Playing Game (MMORPG)</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-top font-weight-bold viewpoint">Szerzői jog</td>
+                                                <td class="align-top">&copy; Pearl Abyss Corp. Minden jog fenntartva.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <table class="divider mb-3 w-100">
+                                    <tr>
+                                        <td class="divider-left"></td>
+                                        <td class="divider-line"></td>
+                                        <td class="divider-center"></td>
+                                        <td class="divider-line"></td>
+                                        <td class="divider-right"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="classes">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center">Kasztok</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto pr-0">
+                            <div class="flex-column nav nav-pills" role="tablist">
+                                <a class="active border mb-3 nav-link rounded shadow-sm" data-toggle="pill" href="#v-pills-archer" role="tab">
+                                    <img src="images/.flex-column-0.png"/>
+                                </a>
+                                <a class="border mb-3 nav-link rounded shadow-sm" data-toggle="pill" href="#v-pills-berserker" role="tab">
+                                    <img src="images/.flex-column-1.png"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="tab-content">
+                                <div class="active fade show tab-pane" id="v-pills-archer" role="tabpanel">
+                                    <h3 class="mx-auto" id="h3-archer"><span>Archer</span></h3>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="fade tab-pane" id="v-pills-berserker" role="tabpanel">
+                                    <h3 class="mx-auto" id="h3-berserker"><span>Berserker</span></h3>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <table class="divider my-3 w-100">
+                                <tr>
+                                    <td class="divider-left"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-center"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-right"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="systemrequirements">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center">Rendszerkövetelmények</h1>
+                            <hr>
+                            <table class="mb-3 tabela">
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none"></td>
+                                        <td class="font-weight-bold text-center">Minimum</td>
+                                        <td class="font-weight-bold text-center">Ajánlott</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-desktop fas" data-toggle="tooltip" data-placement="left" title="Felbontás"></i></td>
+                                        <td class="align-top" id="minimum-resolution"></td>
+                                        <td class="align-top" id="maximum-resolution"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-gamepad fas" data-toggle="tooltip" data-placement="left" title="Grafikai processzor (GPU)"></i></td>
+                                        <td class="align-top" id="minimum-graphics"></td>
+                                        <td class="align-top" id="maximum-graphics"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-ethernet fas" data-toggle="tooltip" data-placement="left" title="Hálózat"></i></td>
+                                        <td class="align-top" id="minimum-network"></td>
+                                        <td class="align-top" id="maximum-network"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-memory fas" data-toggle="tooltip" data-placement="left" title="Memória (RAM)"></i></td>
+                                        <td class="align-top" id="minimum-memory"></td>
+                                        <td class="align-top" id="maximum-memory"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fab fa-windows" data-toggle="tooltip" data-placement="left" title="Operációs rendszer"></i></td>
+                                        <td class="align-top" id="minimum-os"></td>
+                                        <td class="align-top" id="maximum-os"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-microchip fas" data-toggle="tooltip" data-placement="left" title="Processzor (CPU)"></i></td>
+                                        <td class="align-top" id="minimum-processor"></td>
+                                        <td class="align-top" id="maximum-processor"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="icon text-center"><i class="fa-2x fa-hdd fas" data-toggle="tooltip" data-placement="left" title="Tárhely"></i></td>
+                                        <td class="align-top" id="minimum-storage"></td>
+                                        <td class="align-top" id="maximum-storage"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="divider mb-3 w-100">
+                                <tr>
+                                    <td class="divider-left"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-center"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-right"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="images">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-center">Képek</h1>
+                            <hr>
+                            <table class="mb-3 tabela">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img class="img-fluid" data-target="#modal-images-0" data-toggle="modal" src="images/images-0.png">
+                                        </td>
+                                        <td>
+                                            <img class="img-fluid" data-target="#modal-images-1" data-toggle="modal" src="images/images-1.png">
+                                        </td>
+                                        <td>
+                                            <img class="img-fluid" data-target="#modal-images-2" data-toggle="modal" src="images/images-2.png">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+<div class="modal fade" id="modal-images-0" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <img class="img-fluid" src="images/modal-images-0.png">
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-images-1" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <img class="img-fluid" src="images/modal-images-1.png">
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-images-2" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <img class="img-fluid" src="images/modal-images-2.png">
+        </div>
+    </div>
+</div>
+                            <table class="divider mb-3 w-100">
+                                <tr>
+                                    <td class="divider-left"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-center"></td>
+                                    <td class="divider-line"></td>
+                                    <td class="divider-right"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-0" id="container-fluid-2">
+                    <div class="container" id="quiz">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="text-center">Kvíz</h1>
+                                <hr>
+                                <p>Úgy gonolod, hogy már veterán játékos vagy? Úgy ismered a Black Desert Online minden aspektusát, mint a tenyered? Akkor próbáld ki a kvízt és tudd meg, hogy van-e még olyasvalami, amiben bizonytalannak érzed magad.</p>
+                                <h3 class="question">Jelenleg hány választható kaszt van a játékban?</h3>
+                                <input class="answer" name="q1" type="radio" value="0">
+                                <input  class="custom-control-input" id="defaultUnchecked">
+                                <label>7</label><br>
+                                <input class="answer" name="q1" type="radio" value="0">
+                                <label>12</label><br>
+                                <input class="answer" name="q1" type="radio" value="1">
+                                <label id="correctString1">17</label><br>
+                                <input class="answer" name="q1" type="radio" value="0">
+                                <label>18</label>
+                                <div class="hr my-3"></div>
+                                <h3 class="question">Melyik a legutóbb hozzáadott kaszt a játékban?</h3>
+                                <input class="answer" name="q2" type="radio" value="1">
+                                <label id="correctString2">Archer</label><br>
+                                <input class="answer" name="q2" type="radio" value="0">
+                                <label>Lahn</label><br>
+                                <input class="answer" name="q2" type="radio" value="0">
+                                <label>Maehwa</label><br>
+                                <input class="answer" name="q2" type="radio" value="0">
+                                <label>Striker</label>
+                                <div class="hr my-3"></div>
+                                <h3 class="question">Melyik cég adta ki a játékot?</h3>
+                                <input class="answer" name="q3" type="radio" value="0">
+                                <label>Electronic Arts</label><br>
+                                <input class="answer" name="q3" type="radio" value="0">
+                                <label>Bandai Namco</label><br>
+                                <input class="answer" name="q3" type="radio" value="0">
+                                <label>Konami Corporation</label><br>
+                                <input class="answer" name="q3" type="radio" value="1">
+                                <label id="correctString3">Pearl Abyss Corporation</label>
+                                <div class="hr my-3"></div>
+                                <h3 class="question">Mikor jelent meg a Black Desert Online?</h3>
+                                <input class="answer" name="q4" type="radio" value="0">
+                                <label>2015. szeptember 28.</label><br>
+                                <input class="answer" name="q4" type="radio" value="0">
+                                <label>2015. október 30.</label><br>
+                                <input class="answer" name="q4" type="radio" value="1">
+                                <label id="correctString4">2016. március 3.</label><br>
+                                <input class="answer" name="q4" type="radio" value="0">
+                                <label>2016. május 10.</label>
+                                <button class="btn btn-primary float-right mb-3" id="submit" onClick="submitQuiz()" type="submit">Küldés</button>
+                                <div class="correct-answers">
+                                    <div id="correct-answer-1"></div>
+                                    <div id="correct-answer-2"></div>
+                                    <div id="correct-answer-3"></div>
+                                    <div id="correct-answer-4"></div>
+                                </div>
+                                <p class="text-center text-uppercase" id="user-score"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col py-3 text-center">
+                    <a class="text-decoration-none" href="https://discordapp.com/invite/kakaogames" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="discord">
+                            <i class="fa-2x fab fa-discord"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://hu-hu.facebook.com/BlackDesertOnline/" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="facebook">
+                            <i class="fa-2x fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://www.instagram.com/blackdesertonline_official/" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="instagram">
+                            <i class="fa-2x fab fa-instagram"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://www.twitch.tv/blackdesertonlineofficial" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="twitch">
+                            <i class="fa-2x fab fa-twitch"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://twitter.com/bdo_news" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="twitter">
+                            <i class="fa-2x fab fa-twitter"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://www.youtube.com/channel/UCcO-TjLkDNzvYrlPkOHgnfA" target="_blank">
+                        <div class="d-inline-block rounded-circle" id="youtube">
+                            <i class="fa-2x fab fa-youtube"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col pt-3 text-center">
+                        <p class="text-center">&copy; 2019 Letters from Olvia - Too much breathing in the microphone, Csille Márió.</p>
+                        <p class="mt-3 text-center"><span id="review"></span> - 
+                        <span id="by"></span></p>
+                        <a class="btn btn-secondary" href="" id="tweet" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <button class="btn btn-secondary" id="generate" type="button"><i class="fa-angle-right fas"></i></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col py-3">
+                        <img class="img-fluid" src="images/.overlay-0.png"/>
+                    </div>
+                    <div class="col py-3 text-right">
+                        <img class="img-fluid" src="images/.overlay-1.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

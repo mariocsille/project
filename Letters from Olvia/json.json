@@ -1,0 +1,24 @@
+{
+    "maximum": [
+        {
+            "graphics": "AMD RX 480, NVIDIA GTX 970",
+            "memory": "8 GB RAM",
+            "network": "Szélessávú internetkapcsolat",
+            "os": "Windows 7 vagy újabb (32-bit vagy 64-bit)",
+            "processor": "Intel Core i5-650 3.2 GHz",
+            "resolution": "1280x720",
+            "storage": "27 GB szabad tárhely"
+        }
+    ],
+    "minimum": [
+        {
+            "graphics": "GeForce 9800 GTX, GTS 250, Radeon HD 3870 X2",
+            "memory": "4 GB RAM",
+            "network": "Szélessávú internetkapcsolat",
+            "os": "Windows 7 vagy újabb (32-bit vagy 64-bit)",
+            "processor": "Intel Core i3-530 2.9 GHz",
+            "resolution": "1280x720",
+            "storage": "27 GB szabad tárhely"
+        }
+    ]
+}
